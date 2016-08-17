@@ -52,11 +52,11 @@
       "enemy_blowedup":      "0x5A0401"
     },
     "dmg_kind": {
-      "attack": "0xFFAA55",          // attack
-      "fire": "0xFF6655",            // fire
-      "ramming": "0x998855",         // ramming
-      "world_collision": "0x228855", // world collision
-      "other": "0xCCCCCC"            // other
+      "attack":           "0xFFAA55",          // attack
+      "fire":             "0xFF6655",            // fire
+      "ramming":          "0x998855",         // ramming
+      "world_collision":  "0x228855", // world collision
+      "other":            "0xCCCCCC"            // other
     },
     "vtype": {
       "LT":  "0xA2FF9A",
@@ -65,7 +65,7 @@
       "SPG": "0xEFAEFF",
       "TD":  "0xA0CFFF",
       "premium": "0xFFCC66",
-      "usePremiumColor": false
+      "usePremiumColor": true
     },
     "damage": {
       "ally_ally_hit":              ${"def.tk"},
