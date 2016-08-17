@@ -1,4 +1,4 @@
-{ // battleTimer	       // время боя
+﻿{ 
   "$delay": 100,
   "battleTimer": {
                 "_x": "battleTimer._x - 50",
