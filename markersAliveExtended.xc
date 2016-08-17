@@ -54,6 +54,26 @@
     "levelIcon": { "enabled": true, "x": 0, "y": -21, "alpha": 100 },
     "actionMarker": { "enabled": true,  "x": 0,  "y": -67, "alpha": 100  },
     "textFields": [
+    {
+   //Radar Skill  
+       "name": "(ALT) Text1",
+       "font": { "align": "center", "bold": false, "italic": false, "name": "Calibri", "size": 12 },
+       "format": "&nbsp;&nbsp;&nbsp;Tank: <font color='{{c:t-winrate}}'>{{t-winrate%2.2d~%|--%}}</font> | <font color='{{c:t-battles}}'>{{t-hb%2.2d~h|--h}}</font>",
+       "shadow": { "alpha": 100, "angle": 0, "color": "0x000000", "distance": 0, "size": 2, "strength": 400 },
+       "visible": true,
+       "x": 0,
+       "y": -48
+    },
+    {
+    //Radar Skill 2    
+       "name": "(ALT) Skill Tank",
+       "font": { "align": "center", "bold": false, "italic": false, "name": "Calibri", "size": 12 },
+       "format": "Overall: <font color='{{c:winrate}}'>{{winrate%2.2d~%|--%}}</font> | <font color='{{c:kb}}'>{{kb%2.2d~k|--k}}</font>",
+       "shadow": { "alpha": 100, "angle": 0, "color": "0x000000", "distance": 0, "size": 2, "strength": 400 },
+       "visible": true,
+       "x": 0,
+       "y": -64
+    }, 
     //"playerName":
     {
       "name": "Player name",
@@ -75,17 +95,7 @@
       "shadow": { "alpha": 100, "color": "0x000000", "angle": 0, "strength": 1.5, "distance": 0, "size": 3 },
       "format": "<font face='$FieldFont' size='11'><b>{{hp}} / {{hp-max}}</b></font>"
     },
-    //"rating":
-    {
-      "name": "Rating",
-      "enabled": true,
-      "x": 45,
-      "y": -42,
-      "alpha": 100,
-      "textFormat": { "font": "$FieldFont", "size": 16, "color": "{{c:r}}", "align": "center", "bold": false, "italic": false },
-      "shadow": { "enabled": true, "distance": 0, "angle": 45, "color": "0x000000", "alpha": 100, "blur": 6, "strength": 2 },
-      "format": "<font size='25' color='{{c:r|#EFEFEF}}'>•</font>"
-    }
+    {}    
     ]
 },    
   "enemy": {
@@ -143,7 +153,27 @@
     "levelIcon": { "enabled": false, "x": 0, "y": -21, "alpha": 100 },
     "actionMarker": { "enabled": true, "x": 0, "y": -67, "alpha": 100 },
     "textFields": [
-    //"playerName":
+    {    
+    //Radar Skill
+       "name": "(ALT) Text1",
+       "font": { "align": "center", "bold": false, "italic": false, "name": "Calibri", "size": 12 },
+       "format": "&nbsp;&nbsp;&nbsp;Tank: <font color='{{c:t-winrate}}'>{{t-winrate%2.2d~%|--%}}</font> | <font color='{{c:t-battles}}'>{{t-hb%2.2d~h|--h}}</font>",       
+       "shadow": { "alpha": 100, "angle": 0, "color": "0x000000", "distance": 0, "size": 2, "strength": 400 },
+       "visible": true,
+       "x": 0,
+       "y": -64
+    },
+    {
+    //Radar Skill 2
+       "name": "(ALT) Text2",
+       "font": { "align": "center", "bold": false, "italic": false, "name": "Calibri", "size": 12 },
+       "format": "Overall: <font color='{{c:winrate}}'>{{winrate%2.2d~%|--%}}</font> | <font color='{{c:kb}}'>{{kb%2.2d~k|--k}}</font>",       
+       "shadow": { "alpha": 100, "angle": 0, "color": "0x000000", "distance": 0, "size": 2, "strength": 400 },
+       "visible": true,
+       "x": 0,
+       "y": -48
+    },
+  //"playerName":
     {
       "name": "Player name",
       "enabled": true,
@@ -163,17 +193,7 @@
        "shadow": { "alpha": 100, "color": "0x000000", "angle": 0, "strength": 1.5, "distance": 0, "size": 3 },
        "format": "<font face='$FieldFont' size='11' color='{{c:hp-ratio}}'><b>{{hp}} / {{hp-max}}</b></font>"
     },
-    //"rating":
-    {
-      "name": "Rating",
-      "enabled": true,
-      "x": 45,
-      "y": -42,
-      "alpha": 100,
-      "textFormat": { "font": "$FieldFont", "size": 16, "color": "{{c:r}}", "align": "center", "bold": false, "italic": false },
-      "shadow": { "enabled": true, "distance": 0, "angle": 45, "color": "0x000000", "alpha": 100, "blur": 6, "strength": 2 },
-      "format": "<font size='25' color='{{c:r|#EFEFEF}}'>•</font>"     
-    }
+    {}    
     ]
   }
 }

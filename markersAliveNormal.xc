@@ -91,24 +91,24 @@
     },
     //"tankHp":
     {
-      "name": "Dynamic HP",
       "enabled": true,
+      "name": "HP",
       "x": 0,
       "y": -20,
-      "alpha": "{{a:hp}}",
+      "textFormat": { "color": "0xD9FFB3" },
       "shadow": { "alpha": 100, "color": "0x000000", "angle": 0, "strength": 1.5, "distance": 0, "size": 3 },
-      "format": "<font face='$FieldFont' size='11' color='{{c:hp}}'><b>{{hp}}</b></font>"
+      "format": "<font face='$FieldFont' size='11'><b>{{hp}} / {{hp-max}}</b></font>"
     },
     //"rating":
     {
       "name": "Rating",
       "enabled": true,
       "x": 45,
-      "y": -42,
+      "y": -38,
       "alpha": "{{xvm-stat?100|0}}",
-      "textFormat": { "font": "$FieldFont", "size": 16, "color": "{{c:r|#999999}}", "align": "right", "bold": false, "italic": false },
+      "textFormat": { "font": "XVMSymbol",  "size": 16,  "color": "{{c:r|#999999}}",  "align": "right",  "bold": false,  "italic": false  },
       "shadow": { "enabled": true, "distance": 0, "angle": 45, "color": "0x000000", "alpha": 100, "blur": 2, "strength": 1 },
-      "format": "<font size='25' color='{{c:r|#EFEFEF}}'>•</font>"
+      "format": "<font color='#EFEFEF'><font color='{{c:r}}'><b>!</b></font></font>"
    },
    {   
    //Stock Turret Marker    
@@ -225,11 +225,11 @@
       "name": "Rating",
       "enabled": true,
       "x": 45,
-      "y": -45,
+      "y": -38,
       "alpha": "{{xvm-stat?100|0}}",
-      "textFormat": { "font": "$FieldFont", "size": 16, "color": "{{c:r|#999999}}", "align": "right", "bold": false, "italic": false },
+      "textFormat": { "font": "XVMSymbol", "size": 16, "color": "{{c:r|#999999}}", "align": "right", "bold": false, "italic": false },
       "shadow": { "enabled": true, "distance": 0, "angle": 45, "color": "0x000000", "alpha": 100, "blur": 2, "strength": 1 },
-      "format": "<font size='25' color='{{c:r|#EFEFEF}}'>•</font>"
+      "format": "<font color='#EFEFEF'><font color='{{c:r}}'><b>!</b></font></font>"
    },
    {   
    //Stock Turret Marker    
