@@ -28,7 +28,8 @@
       "vehicleFormatLeft": "",
       "vehicleFormatRight": "",
       "vehicleShadowLeft": null,
-      "vehicleShadowRight": null, 
+      "vehicleShadowRight": null,
+      "fixedPosition": false, 
       "extraFieldsLeft": [
         { "x": 61, "y": 2, "valign": "center", "h": 21, "w": "{{hp-max:100}}", "bgColor": 0, "alpha": 40 },
         { "x": 61, "y": 2, "valign": "center", "h": 21, "w": "{{hp:100}}", "bgColor": "0x1878B0", "alpha": 60 },
@@ -40,6 +41,7 @@
         { "x": 115, "valign": "center", "format": "<font size='10'>{{clan%-7.7s}}</font>", "alpha": "{{alive?100|50}}", "shadow": {} },
         { "x": 165, "valign": "center", "format": "<font color='{{c:r}}'><b>{{r%4d|----}}</b></font>", "alpha": "{{alive?100|50}}", "shadow": {} },
         { "enabled": true, "x": 5, "y": 6, "width": 16, "height": 16, "align": "center", "alpha": 90, "bindToIcon": true, "src": "{{clanicon}}" },
+        ${"../oth/hpbarbg.xc":"."},
         {}
       ],
       "extraFieldsRight": [
@@ -52,6 +54,7 @@
         { "x": 115, "valign": "center", "format": "<font size='10'>{{clan%-7.7s}}</font>", "alpha": "{{alive?100|50}}", "shadow": {} },
         { "x": 165, "valign": "center", "format": "<font color='{{c:r}}'><b>{{r%4d|----}}</b></font>", "alpha": "{{alive?100|50}}", "shadow": {} },
         { "enabled": true, "x": 5, "y": 6, "width": 16, "height": 16, "align": "center", "alpha": 90, "bindToIcon": false, "src": "{{clanicon}}" },
+        ${"../oth/hpbarbg.xc":"."},
         {}
       ]
     }

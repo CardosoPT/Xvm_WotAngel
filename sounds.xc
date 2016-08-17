@@ -3,14 +3,14 @@
     "enabled": true,
     "soundBanks": {
       "hangar": "xvm.bnk",
-      "battle": "xvm.bnk"
+      "battle": "xvm.bnk; sixthsense.bnk"
     },
     "logSoundEvents": false,
     "soundMapping": {
       "lightbulb": "",
-      "xvm_sixthSense": "xvm_sixthSense",
+      "xvm_sixthSense": "sixthSense",
       "xvm_sixthSenseRudy": "xvm_sixthSenseRudy",
-      "xvm_enemySighted": "",      
+      "xvm_enemySighted": "",
       "xvm_fireAlert": "xvm_fireAlert",
       "xvm_ammoBay": "xvm_ammoBay",
       "xvm_battleEnd_5_min": "",

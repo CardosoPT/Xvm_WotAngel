@@ -11,15 +11,7 @@
         "y": -3,
         "format": "<font size='15' color='#FFFFFF'>{{l10n:allyBaseCapture}}</font>",
         "done": "<font size='15' color='#FFCC66'>{{l10n:allyBaseCaptured}}</font>",
-        "shadow": {
-          "enabled": true,
-          "distance": 0,
-          "angle": 0,
-          "color": "0x000000",
-          "alpha": 75,
-          "blur": 5,
-          "strength": 2
-        }
+        "shadow": { "enabled": true, "distance": 0, "angle": 0, "color": "0x000000", "alpha": 75, "blur": 5, "strength": 2 }
       },
       "players": {
         "x": 0,

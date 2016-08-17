@@ -1,13 +1,6 @@
 ﻿{
-  "enemySpottedMarker": {
-    "alpha": "{{a:spotted}}",
-    "x": 88,
-    "y": 1,
-    "align": "center",
-    "bindToIcon": true,
-    "format": "<font color='{{c:spotted}}'>{{spotted}}</font>",
-    "shadow": {}
-  },
+  "def": ${"oth/hpbarbg.xc":"."},   
+  "enemySpottedMarker": ${"oth/enemyspottedmarker.xc":"."}, 
   "xmqpServiceMarker": ${"oth/xmqp.xc":"."},
   "clanIcon": ${"oth/clanIcon.xc":"."},
   "xvmUserMarker": ${"oth/xvmuser.xc":"."},
@@ -51,7 +44,11 @@
       "vehicleFormatLeft": "",
       "vehicleFormatRight": "",
       "vehicleShadowLeft": null,
-      "vehicleShadowRight": null,     
+      "vehicleShadowRight": null,
+      "fixedPosition": false, 
+      "inviteIndicatorAlpha": 100,
+      "inviteIndicatorX": 0,
+      "inviteIndicatorY": 0,  
       "extraFieldsLeft": [
         { "x": 0, "y": 4, "alpha": "{{alive?100|50}}", "src": "xvm://res/angel/squads/{{squad?sq|squad}}{{squad-num}}.png" },
         { "x": 20, "y": 2, "format": "<font color='{{player?#FFCC66|{{squad?#FF914C|#FFFFFF}}}}' size='12' alpha='{{alive?#FF|#80}}'>{{frags}}</font> " },

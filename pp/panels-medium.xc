@@ -28,7 +28,8 @@
       "vehicleFormatLeft": "",
       "vehicleFormatRight": "",
       "vehicleShadowLeft": null,
-      "vehicleShadowRight": null,      
+      "vehicleShadowRight": null,
+      "fixedPosition": false,      
       "extraFieldsLeft": [
       { "x": 17, "y": 5, "h": 5, "w": 28, "src": "xvm://res/angel/img/_bg.png" },
       { "x": 17, "y": 5, "h": 5, "w": "{{hp-ratio:30}}", "src": "xvm://res/angel/img/_ally-{{alive}}.png" },
@@ -40,6 +41,7 @@
       { "x": 150, "y": 2, "format": "<font color='{{player?#FFCC66|{{squad?#FF914C|#FFFFFF}}}}' size='12' alpha='{{alive?#FF|#80}}'>{{frags}}</font> " },
       { "x": 96, "valign": "center", "format": "<font face='Consolas' size='10'>{{clan}}</font>", "alpha": "{{alive?100|50}}", "shadow": {} },
       { "enabled": true, "x": 5, "y": 6, "width": 16, "height": 16, "align": "center", "alpha": 90, "bindToIcon": true, "src": "{{clanicon}}" },
+      ${"../oth/hpbarbg.xc":"."},
       {}
       ],
       "extraFieldsRight": [
@@ -53,6 +55,7 @@
       { "x": 150, "y": 2, "format": "<font color='{{player?#FFCC66|{{squad?#FF914C|#FFFFFF}}}}' size='12' alpha='{{alive?#FF|#80}}'>{{frags}}</font> " },
       { "x": 230, "y": 1, "align": "center", "valign": "top", "bindToIcon": false, "format": "{{spotted}}", "shadow": {} },
       { "enabled": true, "x": 5, "y": 6, "width": 16, "height": 16, "align": "center", "alpha": 90, "bindToIcon": true, "src": "{{clanicon}}" },
+      ${"../oth/hpbarbg.xc":"."},
       {}
       ]
     }
