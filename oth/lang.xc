@@ -1,0 +1,1 @@
+﻿"<img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='11'>"
