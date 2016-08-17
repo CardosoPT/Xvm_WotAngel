@@ -1,8 +1,8 @@
 ﻿{
   "def": {
-    "hitlog": {
+   "hitlogHeader": {
       "enabled": true,
-      "updateEvent": "ON_DAMAGE_CAUSED",
+      "updateEvent": "ON_DAMAGE_CAUSED, ON_PANEL_MODE_CHANGED",
       "x": 258,
       "y": 0,
       "width": 530,
@@ -10,6 +10,17 @@
       "textFormat": { "color": "0xF4EFE8", "size": 12 },
       "format": "{{hitlog-header}}\n{{hitlog-body}}"
     },
+   "hitlogBody": {
+      "enabled": true,
+      "hotKeyCode": 56, "onHold": "true", "visibleOnHotKey": false,
+      "updateEvent": "ON_DAMAGE_CAUSED, ON_PANEL_MODE_CHANGED",
+      "x": 258,
+      "y": 0,
+      "width": 530,
+      "height": 430,
+      "textFormat": { "color": "0xF4EFE8", "size": 12 },
+      "format": "{{hitlog-body}}"
+    },    
     "totalHP": {
       "enabled": true,
       "updateEvent": "ON_PLAYERS_HP_CHANGED",
@@ -23,7 +34,7 @@
       "format": "{{py:xvm.total_hp.text()}}"
     },
     "winChance": {
-      "enabled": false,
+      "enabled": true,
       "updateEvent": "ON_VEHICLE_DESTROYED",
       "x": 230,
       "y": 2,
@@ -33,18 +44,6 @@
       "textFormat": { "size": 15 },
       "format": "{{xvm-stat?{{l10n:Team strength}}: {{py:xvm.team_power('{{allyPowerStatic}}','{{enemyPowerStatic}}')}} / {{py:xvm.team_power('{{allyPowerLive}}','{{enemyPowerLive}}')}}}}"
     }, 
-    //"winChance": {
-      //"enabled": true,
-      //"updateEvent": "ON_VEHICLE_DESTROYED",
-      //"x": -195,
-      //"y": 2,
-      //"width": 75,
-      //"height": 22,
-      //"alpha": 100,
-      //"shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
-      //"textFormat":{ "size": 15 },
-      //"format": "{{xvm-stat?{{l10n:Chance to win}}: {{chancesStatic}}{{chancesStatic? / |}}{{chancesLive}}}}"
-    //},
     "test": {
       "enabled": false,
       "updateEvent": null,
@@ -72,6 +71,7 @@
       "enabled": false,
       "updateEvent": null,
       "hotKeyCode": 36,
+      "updateEvent": "ON_TARGET_IN,ON_TARGET_OUT",
       "onHold": false,
       "x": 0,
       "y": -70,
@@ -89,7 +89,7 @@
       "borderColor": "0x101009",
       "shadow": { "distance": 1, "angle": 90, "alpha": 80, "strength": 25},
       "textFormat": { "color": "0x60FF00", "size": 15, "leading": -20, "marginLeft": 2, "marginRight": 2},
-      "format": "<font color='#FFFFFF'><p align='center'><b>Info text field (WN8:&nbsp;<font color='{{c:wn8}}'>{{wn8}}</font>)</b></p></font><br/>Battle tier:<font color='#ff1aff'>&nbsp;{{battletier}}</font><p align='right'>My vehicle:&nbsp;<font color='#ff1aff'>{{my-vehicle}}</font>&nbsp;(<font color='{{c:t-winrate}}'>{{t-winrate%2d}}%</font>)</p>"
+      "format": "<font color='#FFFFFF'><b>Info text field (XTE: <font color='{{c:xte}}'>{{xte}}</font>)</b></font><br/>Battle tier:<font color='#ff1aff'> {{battletier}}</font> <p align='right'>Vehicle: <font color='#ff1aff'>{{vehicle}}</font> (<font color='{{c:t-winrate}}'>{{t-winrate%2d}}%</font>)</p>"
     }
   }
 }
