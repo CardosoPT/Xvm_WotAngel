@@ -1,6 +1,6 @@
 ﻿{
     "alpha": "{{a:spotted}}",
-    "x": 6,
+    "x": 88,
     "y": 1,
     "align": "center",
     "bindToIcon": true,
