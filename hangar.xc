@@ -39,11 +39,11 @@
         "size": 12,
         "bold": false,
         "italic": false,
-        "color": {
-        "great": "0x00AAFF",
+      "color": {
+        "great": "0x007FFF",
         "good":  "0x00FF00",
-        "poor":  "0xFFFF66",
-        "bad":   "0xDCDCDC"
+        "poor":  "0xFFAA2A",
+        "bad":   "0xFF0000"
         },
         "markCurrentServer": "bold",
         "serverColor": ""
@@ -87,10 +87,10 @@
         "bold": false,
         "italic": false,
       "color": {
-        "great": "0x00AAFF",
+        "great": "0x007FFF",
         "good":  "0x00FF00",
-        "poor":  "0xFFFF66",
-        "bad":   "0xDCDCDC"
+        "poor":  "0xFFAA2A",
+        "bad":   "0xFF0000"
         },
         "markCurrentServer": "bold",
         "serverColor": ""
