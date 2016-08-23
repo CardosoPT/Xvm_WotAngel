@@ -2,7 +2,7 @@
   "battle": {
     "mirroredVehicleIcons": ${"oth/mirroredIcons.xc":"."},
     "showPostmortemTips": true,     
-    "highlightVehicleIcon": false, 
+    "highlightVehicleIcon": true, 
     "clockFormat": "H:i:s",
     "clanIconsFolder": "clanicons/",
     "sixthSenseIcon": "xvm://res/SixthSense.png",

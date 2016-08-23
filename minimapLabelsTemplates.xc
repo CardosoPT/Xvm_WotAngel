@@ -1,5 +1,6 @@
 ﻿{
   "def": {
+    // Fields default format
     "defaultItem": {
       "enabled": true,
       "flags": [ "player", "ally", "squadman", "enemy", "teamKiller", "lost", "spotted", "alive", "dead" ],
