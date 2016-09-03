@@ -11,7 +11,7 @@
     "removeSquadIcon": false,
     "removeVehicleLevel": false,
     "vehicleIconAlpha": 100,
-    "removeVehicleTypeIcon": true,
+    "removeVehicleTypeIcon": false,
     "nameFieldShowBorder": false,
     "vehicleFieldShowBorder": false,
     "fragsFieldShowBorder": false,

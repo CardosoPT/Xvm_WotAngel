@@ -25,11 +25,11 @@
         "size": 12,
         "bold": false,
         "italic": false,
-        "color": {
-        "great":"0x007FFF",
-        "good": "0x00FF00",
-        "poor": "0xFFAA2A",
-        "bad":  "0xFF0000"
+      "color": {
+        "great": "0x007FFF",
+        "good":  "0x00FF00",
+        "poor":  "0xFFAA2A",
+        "bad":   "0xFF0000"
         },
         "serverColor": ""
       },
@@ -69,7 +69,7 @@
         "size": 12,
         "bold": false,
         "italic": false,
-        "color": {
+      "color": {
         "great": "0x007FFF",
         "good":  "0x00FF00",
         "poor":  "0xFFAA2A",

@@ -1,5 +1,4 @@
-﻿
-{
+﻿{
   "hotkeys": {
     "minimapZoom":         { "enabled": true, "keyCode": 29, "onHold": true },
     "minimapAltMode":      { "enabled": true, "keyCode": 29, "onHold": true },

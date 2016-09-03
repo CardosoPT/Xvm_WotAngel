@@ -1,6 +1,6 @@
 ﻿{
   "configVersion": "6.1.0",
-  "autoReloadConfig": false,
+  "autoReloadConfig": true,
   "language": "auto",
   "region": "auto",
   "definition": {
@@ -9,7 +9,7 @@
     "date": "29-07-2016",
     "gameVersion": "0.9.15.1",
     "url": "",
-    "modMinVersion": "6.4.0"
+    "modMinVersion": "6.4.2.1"
   },
   "login":             ${"login.xc":"login"},
   "hangar":            ${"hangar.xc":"hangar"},

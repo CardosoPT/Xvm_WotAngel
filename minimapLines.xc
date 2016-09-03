@@ -58,9 +58,6 @@
          { "$ref": { "path": "def.dot" }, "from": 1799, "to": 1800, "thickness": 1.5, "alpha": 55 },
          { "$ref": { "path": "def.dot" }, "from": 1899, "to": 1900, "thickness": 1.5, "alpha": 55 }
        ],
-       // Gun traverse angles may differ depending on vehicle angle relative to ground. See pics at http://goo.gl/ZqlPa
-       //---------------------------------------------------------------------------------------------------
-       // Horizontal gun traverse angle lines.
        "traverseAngle": [
          { "$ref": { "path": "def.traverseAngle" }, "from": 50,  "to": 97,   "thickness": 1.5,  "alpha": 50 },
          { "$ref": { "path": "def.traverseAngle" }, "from": 100, "to": 147,  "thickness": 1.4,  "alpha": 48 },

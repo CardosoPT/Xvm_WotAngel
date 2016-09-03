@@ -1,6 +1,6 @@
 ﻿{
   "camera": {
-    "enabled": true,// active/true
+    "enabled": true,
     "arcade": {
       "distRange": [2, 400],
       "startDist": null,
@@ -50,4 +50,3 @@
     }
   }
 }
-//OFF

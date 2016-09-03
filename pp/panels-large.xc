@@ -1,5 +1,6 @@
 ﻿{
       "enabled": true,
+      "standardFields": [ "frags", "nick", "vehicle" ],
       "removeSquadIcon": false,
       "vehicleIconXOffsetLeft": 0,
       "vehicleIconXOffsetRight": 0,
